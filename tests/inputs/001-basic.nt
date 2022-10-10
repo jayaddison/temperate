@@ -1,0 +1,37 @@
+weekday:
+  rules:
+    base:
+      interval: 08:00/23:00
+      temperature: 16
+
+    wake_up:
+      interval: 07:45/08:00
+      temperature: 20
+    wind_down:
+      interval: 18:00/19:00
+      temperature: 18
+
+    prewarm_office:
+      interval: 08:30/09:00
+      temperature: 18
+      room: office
+
+weekend:
+  rules:
+    base:
+      interval: 09:00/23:00
+      temperature: 16
+
+    wake_up:
+      interval: 08:45/09:00
+      temperature: 20
+    wind_down:
+      interval: 17:30/18:00
+      temperature: 20
+
+sunday:
+  rules:
+    meetup:
+      interval: 17:30/19:00
+      temperature: 18
+      room: office

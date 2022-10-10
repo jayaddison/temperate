@@ -1,0 +1,24 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools", "wheel"]
+
+[project]
+authors = [{name = "James Addison <jay@jp-hosting.net>"}]
+classifiers = [
+    "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)"
+]
+dependencies = [
+    "nestedtext",
+]
+description = "Central heating schedule generator"
+license = {text = "AGPL-3.0-or-later"}
+name = "temperate"
+readme = "README.md"
+version = "0.0.1"
+
+[project.scripts]
+temperate = "temperate.cli:main"
+
+[project.urls]
+Homepage = "https://pypi.org/project/temperate/"
+Source = "https://github.com/jayaddison/temperate.git/"

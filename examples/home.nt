@@ -1,0 +1,26 @@
+weekday:
+  rules:
+    wake_up:
+      interval: 08:15/08:30
+      temperature: 20
+      room: mainbedroom
+
+    base:
+      interval: 08:30/22:30
+      temperature: 18
+
+    office:
+      interval: 10:30/20:00
+      temperature: 18
+      room: guestbedroom
+
+weekend:
+  rules:
+    wake_up:
+      interval: 09:15/09:30
+      temperature: 20
+      room: mainbedroom
+
+    base:
+      interval: 09:30/22:30
+      temperature: 18
